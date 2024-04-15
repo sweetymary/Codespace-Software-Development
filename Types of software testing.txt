@@ -1,0 +1,25 @@
+Types of software testing
+
+1.Functional testing
+  -is a type of software system that evaluates the functionality of a software app.,
+   by testing it's specific features(functions);
+  -it involves testing each function of the software against the functional requirements to ensure that it
+   behaves as expected.
+Examples:
+  -Login testing( ensure that the users can login with valid credentials);
+  -Checkout testing (ensure that the users can add items in the cart,enter shipping and payment informations,
+   proceed to checkout and complete the purchase successfully);
+  -Search engine testing (ensure that the users can enter search queries,receive relevant search result
+   and navigate to the desired pages).
+
+2.Non-functional testing
+  -is a type of software testing that evaluates the performance ,reliability, usability and other non-functional
+   aspects of a software;
+  -it involves testing attributes that are not related to the specific functions, but are esentials for overall
+   quality and user experience.
+Examples:
+  -Usability testing (evaluates user interface and ease of use);
+  -Performance testing (evaluates the performance of a web app. under various conditions(load testing)and scalability
+   testing(to determine it's ability to handle increasing user loads));
+  -Security testing ( identify the vulnerabilities that may lead to unauthorized access);
+    -it involves authentication testing to verify the effectiveness of the authentication mechanisms.

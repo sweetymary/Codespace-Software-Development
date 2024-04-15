@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body {
+ margin: 30px;
+ }
+</style>
+</head>
+
+<body>
+<p>Q4 Write an arrow function for the following JavaScript function.</p>
+
+<script>
+//arrow function syntax to define the counterFunc function
+let counter = "";
+const counterFunc = (counter) =>{
+   // Check if counter > 100 
+    if (counter > 100) {
+      // If false, return  counter = 0
+        return counter = 0 ;
+    }
+    else {
+      //if true, return  the increment of counter
+        return  counter ++ ;
+    }
+}; 
+// Log the result of calling the counterFunc function with the argument counter to the console
+alert(counterFunc(27));
+</script>
+
+</body>
+</html>

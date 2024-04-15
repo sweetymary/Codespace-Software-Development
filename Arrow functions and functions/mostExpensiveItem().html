@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body {
+ margin: 30px;
+ }
+</style>
+</head>
+
+<body>
+<p>Write a function expression called mostExpensiveItem().</p>
+<script>
+ let items = [
+   { item: "irn bru", price: 3.25, stock: 50 },
+   { item: "fanta", price: 3.98, stock: 45 },
+   { item: "diet coke", price: 4.40, stock: 38 }, 
+   { item: "7up", price: 3.99, stock: 42 } 
+]
+ 
+function mostExpensiveItem(items) {
+
+  let mostExpensiveItem = 0;
+  let name;
+ 
+
+  items.forEach(item => {
+   if(item.price > mostExpensiveItem) {
+     mostExpensiveItem = item.price;
+     name = item.item;
+   }
+  });
+return name;
+}
+alert(mostExpensiveItem(items)); 
+ 
+
+ 
+  </script>
+
+</body>
+</html>
